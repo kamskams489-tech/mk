@@ -1,0 +1,6 @@
+{
+  "name": "راصد المركبات",
+  "description": "تطبيق ذكي لتتبع السيارات المسروقة عبر كاميرا الهاتف والتعرف الفوري على لوحات المركبات وإرسال تنبيهات فورية عند التطابق مع قاعدة البيانات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

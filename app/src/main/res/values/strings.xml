@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">راصد المركبات</string>
+    <string name="nav_scanner">الرادار</string>
+    <string name="nav_database">المسروقات</string>
+    <string name="nav_alerts">التنبيهات</string>
+
+    <string name="scanner_status_active">المسح المباشر نشط</string>
+    <string name="scanner_status_paused">المسح متوقف مؤقتاً</string>
+    <string name="scanner_status_analyzing">جاري تحليل الصورة…</string>
+    <string name="scanner_aim_hint">وجّه الإطار نحو لوحة السيارة للتعرف الفوري</string>
+    <string name="scanner_last_plate_label">آخر لوحة تم رصدها</string>
+    <string name="scanner_no_plate_yet">بانتظار رصد لوحة مركبة…</string>
+    <string name="scanner_clear_status">غير مسجلة في قائمة المسروقات</string>
+    <string name="scanner_match_status">تطابق فوري — مركبة مسروقة!</string>
+
+    <string name="action_pause_scan">إيقاف المسح</string>
+    <string name="action_resume_scan">تشغيل المسح</string>
+    <string name="action_torch_toggle">تشغيل أو إطفاء الفلاش</string>
+    <string name="action_sound_toggle">تبديل صوت التنبيه</string>
+    <string name="action_pick_photo">مسح صورة</string>
+    <string name="action_manual_check">فحص يدوي</string>
+    <string name="action_grant_camera">تفعيل الكاميرا</string>
+    <string name="action_open_settings">فتح إعدادات التطبيق</string>
+    <string name="action_switch_camera">تبديل الكاميرا</string>
+    <string name="action_capture_scan">التقاط وفحص</string>
+    <string name="camera_connecting">جاري تشغيل كاميرا الهاتف…</string>
+    <string name="camera_live_badge">كاميرا مباشرة</string>
+    <string name="camera_back_lens">خلفية</string>
+    <string name="camera_front_lens">أمامية</string>
+    <string name="scanner_live_reading_prefix">القراءة الحية:</string>
+    <string name="action_grant_notifications">تفعيل الإشعارات الفورية</string>
+    <string name="action_test_notification">اختبار الإشعار</string>
+
+    <string name="camera_permission_title">الوصول إلى الكاميرا مطلوب</string>
+    <string name="camera_permission_desc">يحتاج تطبيق راصد المركبات إلى إذن الكاميرا للتعرف الفوري على لوحات السيارات ومقارنتها بقاعدة بيانات المركبات المسروقة على جهازك.</string>
+    <string name="camera_unavailable_hint">يمكنك أيضاً فحص أي لوحة من صورة في المعرض أو عبر الفحص اليدوي الفوري.</string>
+
+    <string name="notification_channel_name">تنبيهات السيارات المسروقة</string>
+    <string name="notification_channel_desc">إشعارات فورية عالية الأولوية عند مطابقة لوحة سيارة مع قائمة المسروقات</string>
+    <string name="notification_match_title">تنبيه فوري: رصد سيارة مسروقة!</string>
+    <string name="notification_permission_banner_title">الإشعارات الفورية غير مفعّلة</string>
+    <string name="notification_permission_banner_desc">فعّل إذن الإشعارات لاستلام تنبيه صوتي فوري عند مطابقة أي لوحة مسروقة.</string>
+
+    <string name="db_title">قاعدة بيانات المسروقات</string>
+    <string name="db_search_hint">ابحث برقم اللوحة، الموديل، أو رقم البلاغ…</string>
+    <string name="db_filter_all">الكل</string>
+    <string name="db_filter_stolen">مسروقة</string>
+    <string name="db_filter_recovered">تم العثور عليها</string>
+    <string name="db_add_vehicle">إضافة بلاغ</string>
+    <string name="db_empty_title">لا توجد مركبات مسجلة بعد</string>
+    <string name="db_empty_desc">أضف أرقام لوحات السيارات المسروقة إلى قاعدة البيانات المحلية ليقوم الرادار بمطابقتها وإرسال إشعار فوري بمجرد رصدها بالكاميرا.</string>
+    <string name="db_stat_stolen">مسروقة نشطة</string>
+    <string name="db_stat_recovered">تم استعادتها</string>
+    <string name="db_local_badge">قاعدة بيانات محلية (Room)</string>
+
+    <string name="dialog_add_title">تسجيل مركبة مسروقة</string>
+    <string name="dialog_manual_title">فحص سريع لرقم لوحة</string>
+    <string name="field_plate">رقم اللوحة (عربي أو إنجليزي)</string>
+    <string name="field_plate_placeholder">مثال: أ ب ج 1234 أو ABC 1234</string>
+    <string name="field_make_model">نوع وموديل السيارة</string>
+    <string name="field_make_model_placeholder">مثال: تويوتا كامري</string>
+    <string name="field_color">اللون</string>
+    <string name="field_color_placeholder">مثال: أبيض لؤلؤي</string>
+    <string name="field_year">سنة الصنع</string>
+    <string name="field_case_number">رقم البلاغ / المحضر</string>
+    <string name="field_notes">ملاحظات إضافية (اختياري)</string>
+    <string name="action_save">حفظ في القاعدة</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_check_now">فحص ومطابقة</string>
+    <string name="action_dismiss_alert">تم الاطلاع</string>
+    <string name="action_mark_recovered">تحديد كـ مستعادة</string>
+    <string name="action_mark_stolen">إعادة كـ مسروقة</string>
+    <string name="action_delete">حذف</string>
+
+    <string name="alerts_title">سجل التنبيهات الفورية</string>
+    <string name="alerts_empty_title">لا توجد تطابقات مرصودة حتى الآن</string>
+    <string name="alerts_empty_desc">عندما تتعرف الكاميرا على أي لوحة مطابقة لسيارة مسروقة، سيظهر التنبيه هنا فوراً مع إرسال إشعار نظام عاجل.</string>
+    <string name="alerts_clear_all">مسح السجل</string>
+
+    <string name="source_camera">كاميرا مباشرة</string>
+    <string name="source_photo">صورة من المعرض</string>
+    <string name="source_manual">فحص يدوي</string>
+</resources>
